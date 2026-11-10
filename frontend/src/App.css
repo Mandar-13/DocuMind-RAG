@@ -1,0 +1,9 @@
+.chat { max-width: 600px; margin: 0 auto; padding: 20px; text-align: left; }
+.messages { display: flex; flex-direction: column; gap: 10px; min-height: 300px; margin-bottom: 16px; }
+.msg { padding: 10px 14px; border-radius: 10px; max-width: 80%; }
+.msg p { margin: 0; }
+.msg.user { background: #4f46e5; color: white; align-self: flex-end; }
+.msg.bot { background: #2a2a35; align-self: flex-start; }
+.msg small { opacity: 0.7; display: block; margin-top: 6px; }
+.input-row { display: flex; gap: 8px; }
+.input-row input { flex: 1; padding: 10px; border-radius: 8px; border: 1px solid #555; }
